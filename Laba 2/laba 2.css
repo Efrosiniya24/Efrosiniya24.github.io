@@ -14,8 +14,9 @@ body{
     
 }
 
-.menu{
+a{
     color: black;
+    text-decoration: none;
 }
 
 ul{
@@ -23,13 +24,38 @@ ul{
 }
 
 .firstFilm{
+    font-family: 'Gropled';
+}
+.firstDescription{
     text-align:justify;
 }
 
 .secondFilm{
+    font-family: 'XTypewritter';
+}
+.secondDescription{
     text-align:center;
 }
 
 .thirdFilm{
+    font-family: 'Dudka';
+}
+.thirdDescription{
     text-align: right;
+}
+.thirdFilmWeight{
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Gropled';
+    src: url('font/ofont.ru_Gropled.ttf');
+}
+@font-face {
+    font-family: 'XTypewritter';
+    src: url('font/ofont.ru_XTypewriter.ttf');
+}
+@font-face {
+    font-family: 'Dudka';
+    src: url('font/ofont.ru_Dudka.ttf');
 }
