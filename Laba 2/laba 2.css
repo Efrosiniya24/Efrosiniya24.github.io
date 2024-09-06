@@ -55,15 +55,7 @@ ul{
     src: url('font/ofont.ru_Dudka.ttf');
 }
 
-@media (max-width: 1440px) {
-    .container{
-    width: 1440px;
-   }
+.container{
+    width:1400px;
+    margin: 0 auto;
 }
-
- @media (min-width: 1440px) {
-    .container{
-        width:1440px;
-        margin: 0 auto;
-    }
- }
