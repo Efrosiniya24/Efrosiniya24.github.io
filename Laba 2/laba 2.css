@@ -63,6 +63,7 @@ ul{
 
  @media (min-width: 1440px) {
     .container{
+        width:1440px;
         margin: 0 auto;
     }
  }
