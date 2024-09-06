@@ -1,0 +1,53 @@
+body{
+    background-color:  #76ad81;
+
+}
+form{
+    background-color:  rgb(236, 255, 243);
+    color: #255c30;
+    border-radius: 40px;
+    text-align: center;
+    height: 700px;
+    width: 500px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:70px;
+    bottom: auto;
+}
+h1{
+    padding: 50px;
+    font-size: 40px;
+}
+input{
+    border-radius: 20px;
+    background-color:  white;
+    color:#255c30;
+    height: 30px;
+    width: 300px;
+    padding: 5px;
+    margin-top: 10px;
+}
+input[type = "submit"]{
+    background-color:  #255c30;
+    color: rgb(236, 255, 243);
+    font-size: 15px;
+    padding: 5px;
+    height:50px;
+    width: 200px;
+    border-radius: 20px;
+}
+label{
+    margin-left: -120px;
+    margin-right: 300px;
+}
+input[type ="checkbox"]{
+    margin-left: -90px;
+    color: white;
+    height: 20px;
+}
+input[type="file"]{
+    border-radius: 10px;
+    height:30px;
+    width:200px;
+    color: rgb(236, 255, 243);
+}
