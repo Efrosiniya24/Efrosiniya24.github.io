@@ -7,21 +7,35 @@
     <title>form</title>
 </head>
 <body>
-    <form action ="/signUp" method="post">
+    <form action="/signUp" method="post">
         <h1>Sign Up</h1>
-        <input type = "email" name = "username" placeholder="email">
-        <br>
-        <input type = "password" name = "password" placeholder="passsword">
-        <br>
-        <input type = "tel" name="phone" placeholder="phone">
-        <br>
-        <input type ="checkbox" name = "checkbox" placeholder="checkbox">
-        <label>Даю согласие на обработку персональных данных</label>
-        <br>
+        <input type="text" name="username" placeholder="username">
+        <input type="email" name="email" placeholder="email">
+        <input type="password" name="password" placeholder="password">
+        <input type="tel" name="phone" placeholder="phone">
+        
+        <fieldset>
+            <legend>Выберите пол</legend>
+            <div class="radioGroup">
+                <input type="radio" id="genderMale" name="gender" value="male">
+                <label for="genderMale" class="genderLabel">Мужчина</label>
+            </div>
+            <div class="radioGroup">
+                <input type="radio" id="genderFemale" name="gender" value="female">
+                <label for="genderFemale" class="genderLabel">Женщина</label>
+            </div>
+        </fieldset>
 
-        <input type ="file" name = "file" placeholder="file">
-        <br>
-        <input type = "submit" name = "submit" placeholder="submit">
+        <input type="file" id="file" name="file" id="file">
+        <label for="file" class="fileButton">Выберите фото профиля</label>
+
+        <input type="checkbox" name="checkbox" id="consentCheckbox">
+        <label for="consentCheckbox" class="checkboxLabel">
+            <span class="wordWrap">Даю согласие на обработку персональных<br> данных</span>
+        </label>
+
+        <input type="submit" name="submit" value="Submit">
+        <input type="reset" name = "reset" value="Reset">
     </form>
 </body>
 </html>
