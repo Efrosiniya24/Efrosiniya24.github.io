@@ -60,13 +60,10 @@ label.checkboxLabel {
 .wordWrap {
     display: inline-block;
     text-align: left;
-    /* vertical-align: middle; */
 }
 .wordWrapGender {
     display: inline-block;
     text-align: left;
-    /* vertical-align: middle;
-    margin-top: 60px; */
     margin-left: 40px;
     
 }
@@ -97,7 +94,6 @@ fieldset{
 
     display: flex;
     flex-direction: column;
-    /* gap: -110px; Расстояние между строками */
     padding-bottom: 5px;
 }
 
@@ -118,18 +114,15 @@ input[type = "radio"]{
 }
 
 .genderLabel {
-    margin: 0; /* Убираем лишние отступы */
+    margin: 0; 
     display: inline-block;
 
 }
 
-/* #genderFemale{
-    margin-top: -0px;
-} */
 .radioGroup {
     display: flex;
-    align-items: center; /* Выровнять по вертикали */
-    gap: 5px; /* Расстояние между радиокнопкой и текстом */
+    align-items: center; 
+    gap: 5px; 
 
 }
 
