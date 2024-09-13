@@ -1,0 +1,62 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background: rgb(52, 206, 142);
+  height: 100px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  line-height: 100px;
+  margin: 0;
+}
+
+button {
+  margin: 50px;
+  font-size: 20px;
+  background-color: red;
+}
+
+a {
+  font-size: 20px;
+}
+
+.vibrateButton {
+    border: 2px solid #000;
+    cursor: pointer;
+    animation: vibrate 0.3s infinite; 
+}
+
+.vibrateButton:hover {
+    animation: none; 
+    background-color: green; 
+    color: white;
+}
+
+@keyframes vibrate {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+
+.animatedLink {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.animatedLink:hover {
+    color: green;
+}
+
+
