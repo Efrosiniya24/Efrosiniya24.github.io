@@ -84,6 +84,7 @@ a {
   margin-top: 60px;
   left: 40%;
   animation: bounce 3s cubic-bezier(.64,1.12,.8,.95);
+  animation-fill-mode: forwards;
 }
 
 
@@ -107,7 +108,7 @@ a {
     transform: translateY(300px) scaleX(1) scaleY(0.7); 
   }
   100% {
-    transform: translateY(0) scaleX(1) scaleY(1); 
+    transform: translateY(300px) scaleX(1) scaleY(1); 
   }
 }
 
