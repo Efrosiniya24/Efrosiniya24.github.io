@@ -83,7 +83,7 @@ a {
   position: absolute;
   margin-top: 60px;
   left: 40%;
-  animation: bounce 3s cubic-bezier(.64,1.12,.8,.95)  ; 
+  animation: bounce 3s cubic-bezier(.64,1.12,.8,.95);
 }
 
 
@@ -92,19 +92,19 @@ a {
     transform: translateY(0) scaleX(1) scaleY(1);
   }
   30% {
-    transform: translateY(300px) scaleX(1) scaleY(0.9); 
+    transform: translateY(300px) scaleX(1) scaleY(0.7); 
   }
   50% {
     transform: translateY(0) scaleX(1) scaleY(1);
   }
   65% {
-    transform: translateY(300px) scaleX(1) scaleY(0.5); 
+    transform: translateY(300px) scaleX(1) scaleY(0.7); 
   }
   80% {
     transform: translateY(0) scaleX(1) scaleY(1); 
   }
   90% {
-    transform: translateY(300px) scaleX(1) scaleY(0.5); 
+    transform: translateY(300px) scaleX(1) scaleY(0.7); 
   }
   100% {
     transform: translateY(0) scaleX(1) scaleY(1); 
