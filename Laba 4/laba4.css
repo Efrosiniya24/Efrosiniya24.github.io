@@ -83,8 +83,7 @@ a {
   position: absolute;
   margin-top: 60px;
   left: 40%;
-  transform: translateX(-30%);
-  animation: bounce 3s cubic-bezier(.64,1.12,.8,.95) infinite ; 
+  animation: bounce 3s cubic-bezier(.64,1.12,.8,.95)  ; 
 }
 
 
