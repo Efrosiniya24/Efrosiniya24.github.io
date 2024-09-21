@@ -39,5 +39,5 @@ article:nth-child(3){
 }
 
 article:nth-child(9){
-  grid-area: 4/2/5/4;;
+  grid-area: 4/2/5/4;
 }
